@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IP=$(curl -s 'https://api.ipify.org?format=json' | jq '.ip')
+IP=$(curl -s 'https://api.ipify.org?format=json' | /snap/bin/jq '.ip')
 
 if [[ -f $HOME/tmp/previous_ip ]]; then
 	OLD_IP=$(cat $HOME/tmp/previous_ip)
