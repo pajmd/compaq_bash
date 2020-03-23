@@ -12,3 +12,5 @@ And added line:
 ```
 crontab -e
 ```
+
+https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804
