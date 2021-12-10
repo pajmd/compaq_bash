@@ -10,12 +10,13 @@ sudo apt-get install mailutils
 sudo vi /etc/ssmtp/ssmtp.conf
 
 root=postmaster
-mailhub=smtp.gmail.com:587  # or similar 
+mailhub=smtps.orange.fr:465  # or similar 
 hostname=raspberrypi
 AuthUser=AGmailUserName@gmail.com
 AuthPass=TheGmailPassword
 FromLineOverride=YES
-UseSTARTTLS=YES
+# UseSTARTTLS=YES   # go with port 587
+UseTLS=YES   # go with port 465
 ```
 
 ## CRON JOB
