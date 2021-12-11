@@ -1,6 +1,6 @@
 # Sending IP
 
-## Setting mail
+## Setting Up mail
 We need too install **SMTP**, a **mail client app** and configure SMTP:
 
 ```
