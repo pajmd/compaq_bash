@@ -1,7 +1,8 @@
 # Sending IP
 
 ## Setting mail
-I believe I had to:
+We need too install **SMTP**, a **mail client app** and configure SMTP:
+
 ```
 
 sudo apt-get install ssmtp
